@@ -1,5 +1,5 @@
-Summary:	The wmctrl program is a command line tool to interact with an EWMH/NetWM compatible X Window Manager.
-Summary(pl):	Program wmtrl jest narzêdziem tekstowym do interakcji z mened¿erami okien kompatybilnymi z EWMH/NetWM
+Summary:	wmctrl is a command line tool to interact with an EWMH/NetWM compatible X Window Managers
+Summary(pl):	wmtrl jest narzêdziem tekstowym do interakcji z mened¿erami okien kompatybilnymi z EWMH/NetWM
 Name:		wmctrl
 Version:	1.05
 Release:	1
@@ -32,14 +32,14 @@ implement this specification.
 
 %description -l pl
 wmctrl dostarcza narzêdzie umo¿liwiaj±ce dostêp do wiêkszo¶ci
-w³a¶ciwo¶ci zdefiniowanych w specyfikacji EWMH. U¿ywaj±c go, jest
+w³a¶ciwo¶ci zdefiniowanych w specyfikacji EWMH. U¿ywaj±c go jest
 mo¿liwe (na przyk³ad) uzyskanie informacji o mened¿erze okien,
-pobranie szczegó³owej listy pulpitów i okien, prze³±czaæ siê i
-zmieniaæ rozmiary pulpitów, zmieniaæ nazwy pulpitów, powiêkszaæ okna,
-aktywowaæ je, zmaykaæ, przesuwaæ i minimalizowaæ.
+pobranie szczegó³owej listy pulpitów i okien, prze³±czanie siê i
+zmienianie rozmiarów pulpitów, zmienianie nazw pulpitów, powiêkszanie
+okien, ich aktywacja, zamykanie, przesuwanie i minimalizowanie.
 
 Dostêp z poziomu wiersza poleceñ pozwala na ³atw± automatyzacjê tych
-zadañ i wykonywanie ich z poziomu dowolnej aplikacji która potrafi
+zadañ i wykonywanie ich z poziomu dowolnej aplikacji, która potrafi
 uruchamiaæ komendy w wyniku jakich¶ zdarzeñ.
 
 Zauwa¿, ¿e wmctrl dzia³a tylko w tych mened¿erach okien, które stosuj±
