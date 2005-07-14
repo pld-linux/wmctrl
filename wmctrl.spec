@@ -1,18 +1,19 @@
 Summary:	wmctrl - a command line tool to interact with an EWMH/NetWM compatible X Window Managers
 Summary(pl):	wmtrl - tekstowe narzêdzie do interakcji z zarz±dcami okien kompatybilnymi z EWMH/NetWM
 Name:		wmctrl
-Version:	1.06
+Version:	1.07
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Vendor:		Tomas Styblo <tripie@cpan.org>
 Source0:	http://sweb.cz/tripie/utils/wmctrl/dist/%{name}-%{version}.tar.gz
-# Source0-md5:	5e2a87dd0a3f3d209ca6a27a22bed4bf
+# Source0-md5:	1fe3c7a2caa6071e071ba34f587e1555
 URL:		http://sweb.cz/tripie/utils/wmctrl/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
+BuildRequires:	glib2-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
