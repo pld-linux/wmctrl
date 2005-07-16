@@ -13,7 +13,7 @@ BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
-BuildRequires:	glib2-devel
+BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -51,7 +51,6 @@ stosuj± siê do specyfikacji.
 %setup -q
 
 %build
-rm -f missing aclocal.m4
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
@@ -72,3 +71,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS README
 %attr(755,root,root) %{_bindir}/wmctrl
+%{_mandir}/man1/wmctrl.1*
