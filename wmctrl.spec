@@ -35,17 +35,17 @@ implement this specification.
 %description -l pl
 wmctrl dostarcza narzêdzie umo¿liwiaj±ce dostêp do wiêkszo¶ci
 w³a¶ciwo¶ci zdefiniowanych w specyfikacji EWMH. U¿ywaj±c go jest
-mo¿liwe (na przyk³ad) uzyskanie informacji o mened¿erze okien,
+mo¿liwe (na przyk³ad) uzyskanie informacji o zarz±dcy okien,
 pobranie szczegó³owej listy pulpitów i okien, prze³±czanie siê i
 zmienianie rozmiarów pulpitów, zmienianie nazw pulpitów, powiêkszanie
 okien, ich aktywacja, zamykanie, przesuwanie i minimalizowanie.
 
 Dostêp z poziomu wiersza poleceñ pozwala na ³atw± automatyzacjê tych
 zadañ i wykonywanie ich z poziomu dowolnej aplikacji, która potrafi
-uruchamiaæ komendy w wyniku jakich¶ zdarzeñ.
+uruchamiaæ polecenia w wyniku jakich¶ zdarzeñ.
 
-Zauwa¿, ¿e wmctrl dzia³a tylko w tych mened¿erach okien, które stosuj±
-siê do specyfikacji.
+Nale¿y zauwa¿yæ, ¿e wmctrl dzia³a tylko w tych zarz±dcach okien, które
+stosuj± siê do specyfikacji.
 
 %prep
 %setup -q
