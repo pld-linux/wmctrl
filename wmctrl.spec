@@ -1,5 +1,5 @@
 Summary:	wmctrl - a command line tool to interact with an EWMH/NetWM compatible X Window Managers
-Summary(pl):	wmtrl - tekstowe narzêdzie do interakcji z zarz±dcami okien kompatybilnymi z EWMH/NetWM
+Summary(pl.UTF-8):   wmtrl - tekstowe narzÄ™dzie do interakcji z zarzÄ…dcami okien kompatybilnymi z EWMH/NetWM
 Name:		wmctrl
 Version:	1.07
 Release:	1
@@ -32,20 +32,20 @@ response to some event.
 Please note that wmctrl only works with window managers which
 implement this specification.
 
-%description -l pl
-wmctrl dostarcza narzêdzie umo¿liwiaj±ce dostêp do wiêkszo¶ci
-w³a¶ciwo¶ci zdefiniowanych w specyfikacji EWMH. U¿ywaj±c go jest
-mo¿liwe (na przyk³ad) uzyskanie informacji o zarz±dcy okien,
-pobranie szczegó³owej listy pulpitów i okien, prze³±czanie siê i
-zmienianie rozmiarów pulpitów, zmienianie nazw pulpitów, powiêkszanie
+%description -l pl.UTF-8
+wmctrl dostarcza narzÄ™dzie umoÅ¼liwiajÄ…ce dostÄ™p do wiÄ™kszoÅ›ci
+wÅ‚aÅ›ciwoÅ›ci zdefiniowanych w specyfikacji EWMH. UÅ¼ywajÄ…c go jest
+moÅ¼liwe (na przykÅ‚ad) uzyskanie informacji o zarzÄ…dcy okien,
+pobranie szczegÃ³Å‚owej listy pulpitÃ³w i okien, przeÅ‚Ä…czanie siÄ™ i
+zmienianie rozmiarÃ³w pulpitÃ³w, zmienianie nazw pulpitÃ³w, powiÄ™kszanie
 okien, ich aktywacja, zamykanie, przesuwanie i minimalizowanie.
 
-Dostêp z poziomu wiersza poleceñ pozwala na ³atw± automatyzacjê tych
-zadañ i wykonywanie ich z poziomu dowolnej aplikacji, która potrafi
-uruchamiaæ polecenia w wyniku jakich¶ zdarzeñ.
+DostÄ™p z poziomu wiersza poleceÅ„ pozwala na Å‚atwÄ… automatyzacjÄ™ tych
+zadaÅ„ i wykonywanie ich z poziomu dowolnej aplikacji, ktÃ³ra potrafi
+uruchamiaÄ‡ polecenia w wyniku jakichÅ› zdarzeÅ„.
 
-Nale¿y zauwa¿yæ, ¿e wmctrl dzia³a tylko w tych zarz±dcach okien, które
-stosuj± siê do specyfikacji.
+NaleÅ¼y zauwaÅ¼yÄ‡, Å¼e wmctrl dziaÅ‚a tylko w tych zarzÄ…dcach okien, ktÃ³re
+stosujÄ… siÄ™ do specyfikacji.
 
 %prep
 %setup -q
