@@ -1,5 +1,5 @@
 Summary:	wmctrl - a command line tool to interact with an EWMH/NetWM compatible X Window Managers
-Summary(pl.UTF-8):   wmtrl - tekstowe narzędzie do interakcji z zarządcami okien kompatybilnymi z EWMH/NetWM
+Summary(pl.UTF-8):	wmtrl - tekstowe narzędzie do interakcji z zarządcami okien kompatybilnymi z EWMH/NetWM
 Name:		wmctrl
 Version:	1.07
 Release:	1
