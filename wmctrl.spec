@@ -9,12 +9,12 @@ Vendor:		Tomas Styblo <tripie@cpan.org>
 Source0:	http://sweb.cz/tripie/utils/wmctrl/dist/%{name}-%{version}.tar.gz
 # Source0-md5:	1fe3c7a2caa6071e071ba34f587e1555
 URL:		http://sweb.cz/tripie/utils/wmctrl/
-BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
+BuildRequires:	xorg-lib-libXmu-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
